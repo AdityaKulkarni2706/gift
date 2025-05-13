@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🌾 Achievements Unlocked</title>
+
+  <!-- Pixel Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <style>
+
+    .bday-wish {
+      
+  font-size: 14px;
+  color: #ffd6ec;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0 0 4px #ffb6c1aa;
+          }
+
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Press Start 2P', cursive;
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #f5d76e;
+      font-size: 20px;
+      margin-bottom: 40px;
+      text-align: center;
+      text-shadow: 2px 2px #000;
+    }
+
+    .achievement {
+      background: #2c2c2c;
+      border: 4px solid #f5d76e;
+      border-radius: 8px;
+      padding: 25px;
+      margin: 20px;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 0 10px #f5d76e88;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: transform 0.2s;
+    }
+
+    .achievement:hover {
+      transform: scale(1.05);
+      background-color: #3a3a3a;
+    }
+
+    .achievement-icon {
+      width: 48px;
+      height: 48px;
+      image-rendering: pixelated;
+    }
+
+    .achievement-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .iridium {
+      color: #c56eff;
+      text-shadow: 0 0 8px #c56eff, 0 0 16px #c56effaa;
+}
+
+    .empathy {
+      color: #ffcc66;
+      text-shadow: 0 0 8px #ffcc6688;
+}
+    .locked {
+      color: #ff4c4c;
+      text-shadow: 0 0 6px #ff4c4c88, 0 0 10px #220000;
+}
+
+    .bear {
+      color: #d4a373; 
+      text-shadow: 
+      0 0 4px #d4a373aa,
+      1px 1px 0 #5e503f; 
+}
+
+
+
+    .unlock-time {
+      font-size: 8px;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .birthday {
+  color: #ff69b4;
+  text-shadow: 0 0 6px #ff69b4aa, 1px 1px #000;
+}
+
+.final-achievement {
+  background-color: #2a003f;
+  border: 3px solid #ff69b4;
+  box-shadow: 0 0 12px #ff69b499;
+}
+
+.achievement-title{
+  transform: translateX(-20px);
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  
+  <h1 class="achievement-title">🎮 ACHIEVEMENTS UNLOCKED</h1>
+
+  <div class="achievement">
+    <img src="../static/img/heart_8255648.png" class="achievement-icon">
+    <div class="achievement-text">
+      <span class="iridium">Iridium Friendship</span>
+      <div class="unlock-time"> Unlocked in 2020, reached iridium in 2024. We went from HATING each other to actually being amazing friends!</div>
+    </div>
+  </div>
+
+  <div class="achievement">
+    <img src="../static/img/heart_9351134.png" class="achievement-icon">
+    <div class="achievement-text">
+      <span class="empathy">Level 10 Empathy</span>
+      <div class="unlock-time">Unlocked every time I opened up. I don't need to think twice before telling you anything, thats enough proof. </div>
+    </div>
+  </div>
+
+  <div class="achievement">
+    <img src="../static/img/phishing_9767486.png" class="achievement-icon">
+    <div class="achievement-text">
+      <span class="locked">No Access To Site</span>
+      <div class="unlock-time">If its Palavi, 'Ghode bech kar sona' doesn't apply. </div>
+    </div>
+  </div>
+
+  <div class="achievement">
+    <img src="../static/img/pen_2298244.png" class="achievement-icon">
+    <div class="achievement-text">
+      <span class="iridium">Iridium Writer</span>
+      <div class="unlock-time">Description : The only time I read, its always Lexicon.</div>
+    </div>
+  </div>
+
+  <div class="achievement">
+    <img src="../static/img/teddy-bear_8338185.png" class="achievement-icon">
+    <div class="achievement-text">
+      <span class="bear">Bearrrr</span>
+      <div class="unlock-time">Palavi has always been the bear, the BEAR.</div>
+    </div>
+  </div>
+
+  <div class="achievement final-achievement">
+  <img src="../static/img/cake_14505559.png" class="achievement-icon">
+  <div class="achievement-text">
+    <span class="birthday">Birthday Unlocked</span>
+    <div class="unlock-time">Happy Birthday, Palavi.<br>You've leveled up in everything - kindness, maturity, and in being waesomeee (you gotta use this word again)</div>
+  </div>
+</div>
+
+  <div class="achievement locked-achievement">
+    <img src="../static/img/lock_17706385.png" class="achievement-icon">
+  <span style="opacity: 0.3;">More memories yet to unlock...</span>
+ 
+</div>
+
+
+
+
+
+</body>
+</html>

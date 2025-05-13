@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Login</title>
+
+  <!-- Pixel font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #1b1b1b;
+      font-family: 'Press Start 2P', monospace;
+      color: #00ff99;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 18px;
+      color: #f8ff38;
+      margin-bottom: 30px;
+      transform: translateX(-8px); 
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      margin: 10px 0;
+      border: 3px solid #00ff99;
+      background-color: #111;
+      color: #00ff99;
+      width: 260px;
+      font-size: 12px;
+      font-family: 'Press Start 2P', monospace;
+      outline: none;
+    }
+
+    input::placeholder {
+      color: #00ff99;
+    }
+
+    #submit-btn {
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #f8ff38;
+      color: #000;
+      border: 3px solid #000;
+      cursor: pointer;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 12px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    #submit-btn:hover {
+      background-color: #e0dc28;
+      transform: scale(1.05);
+    }
+
+    #display-msg {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #00ff99;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>LOGIN</h1>
+  </div>
+
+  <input type="text" id="username" placeholder="Username"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button id="submit-btn">Login</button>
+
+  <h1 id="display-msg"> </h1>
+
+  <script src="../static/script_button.js"></script>
+</body>
+</html>
